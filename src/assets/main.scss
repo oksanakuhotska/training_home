@@ -1,5 +1,60 @@
 @import "reset";
+@import "fonts";
+@import "header";
+
+$maxWidthContainer: 1263;
+$fontFamily: "Open Sans";
+$fontSize: rem(15);
+$fontSizeTitle: rem(20);
+$mainColor: #000000;
 
 body {
-  background-color: lighten(#f00, 25%);
+	max-width: $maxWidthContainer + px;
+   padding: 0px 15px;
+   margin: 0 auto;
+	font-family: $fontFamily;
+	font-size: $fontSize;
+	color: $mainColor;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 1;
+	text-align: left;
+}
+// ==========
+.title{
+	font-size: $fontSizeTitle;
+	line-height: 25px;
+}
+//=======
+
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	> main {
+		flex: 1 1 auto;
+	}
+}
+//==================
+
+.services-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.linkinator {
+	flex: 0 1 33.333%;
+}
+.linkinator-header {
+}
+.linkinator-body {
+}
+.services-section {
+}
+
+
+.main-footer{
+	background-color: #f8f8f8;
 }
