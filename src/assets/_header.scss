@@ -4,6 +4,7 @@ $fontSizeTitle: 20px;
 
 
 .main-header{
+	min-height: 145px;
 	&__wrapper{
 		display: flex;
 		align-items: flex-end;

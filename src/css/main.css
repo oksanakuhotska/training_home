@@ -111,6 +111,10 @@ body {
   letter-spacing: 0.1;
 }
 
+.main-header {
+  min-height: 145px;
+}
+
 .main-header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
