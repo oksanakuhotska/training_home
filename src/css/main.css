@@ -113,6 +113,8 @@ body {
 
 .main-header {
   min-height: 145px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .main-header__wrapper {
