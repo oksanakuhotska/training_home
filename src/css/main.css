@@ -237,45 +237,6 @@ a.main-nav__link {
   text-decoration: underline;
 }
 
-body {
-  padding: 0px 15px;
-  margin: 0 auto;
-  max-width: 1293px;
-  font-family: "Open Sans";
-  font-size: 15px;
-  color: #000000;
-  font-weight: 400;
-  letter-spacing: normal;
-  line-height: 1;
-  text-align: left;
-}
-
-.title {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
-  letter-spacing: 0.1;
-}
-
-.wrapper {
-  min-height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  overflow: hidden;
-}
-
-.wrapper > main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-}
-
 .services-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,16 +287,11 @@ body {
   color: #ff9626;
 }
 
-.linkinator-body > li > a::after {
-  content: "";
-  display: inline-block;
-  height: 16px;
-  width: 10px;
-  background: url("../img/icons-svg/icon-arrow.svg") 0 0 no-repeat;
-  top: 26%;
-  left: 0;
-  position: absolute;
+._icon-angle-right {
   margin-left: 95%;
+  position: absolute;
+  top: 27%;
+  left: 0;
 }
 
 .main-footer {
