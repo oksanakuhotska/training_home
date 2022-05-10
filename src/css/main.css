@@ -68,73 +68,43 @@ h6 {
   font-size: inherit;
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html,
 body {
-  height: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  max-width: 1293px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  text-align: left;
 }
 
-body {
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
 }
 
-input,
-button,
-textarea {
-  font-size: inherit;
+.wrapper > main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
-button {
-  cursor: pointer;
-  color: inherit;
-  background-color: inherit;
-}
-
-a {
-  color: inherit;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: inherit;
-  font-size: inherit;
+.title {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1;
 }
 
 .main-header__wrapper {
@@ -144,6 +114,9 @@ h6 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 30px;
   margin-top: 10px;
 }
@@ -159,15 +132,15 @@ h6 {
   padding-right: 7px;
 }
 
-a.consult-chat {
+a.link-consult-chat {
   color: #267bae;
   text-decoration: underline;
   font-weight: 600;
-  -ms-flex-preferred-size: 35%;
-      flex-basis: 35%;
+  margin-right: 20%;
+  padding-right: 10px;
 }
 
-a.consult-chat:hover {
+a.link-consult-chat:hover {
   text-decoration: none;
   color: #ffca08;
 }
@@ -189,19 +162,17 @@ a.consult-chat:hover {
   color: #ffca08;
 }
 
-.one-click-order {
+a.one-click-order {
   cursor: pointer;
   color: #267bae;
   -webkit-text-decoration-style: dashed;
           text-decoration-style: dashed;
   font-size: 20px;
   font-weight: 600;
-  margin-right: 100px;
-  -ms-flex-preferred-size: 18%;
-      flex-basis: 18%;
+  margin-right: 10%;
 }
 
-.one-click-order:hover {
+a.one-click-order:hover {
   color: #ffca08;
 }
 

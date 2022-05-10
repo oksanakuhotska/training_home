@@ -1,7 +1,9 @@
 $maxWidthContainer: 1263;
 $fontFamily: "Open Sans";
 $fontSize: 15px;
+$fontSizeTitle: 20px;
 $mainColor: #000000;
+
 
 
 body {
@@ -16,13 +18,7 @@ body {
 	line-height: 1;
 	text-align: left;
 }
-// ========== блоки повторного використання ======
-.title{
-	font-size: $fontSizeTitle;
-	line-height: 25px;
-	font-weight: 700;
-	letter-spacing: 0.1;
-}
+
 //==================
 
 .wrapper{
@@ -34,4 +30,11 @@ body {
 	> main {
 		flex: 1 1 auto;
 	}
+}
+// ========== блоки повторного використання ======
+.title{
+	font-size: $fontSizeTitle;
+	line-height: 25px;
+	font-weight: 700;
+	letter-spacing: 0.1;
 }

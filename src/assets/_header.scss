@@ -7,6 +7,7 @@ $fontSizeTitle: 20px;
 	&__wrapper{
 		display: flex;
 		align-items: flex-end;
+		justify-content: space-between;
 		margin-bottom: 30px;
 		margin-top: 10px;
 	}
@@ -20,11 +21,12 @@ $fontSizeTitle: 20px;
 	color: $linkinatorColorYellow;
 	padding-right: 7px;
 }
-a.consult-chat{
+a.link-consult-chat{
 	color: $linkinatorColorBlue;
 	text-decoration: underline;
 	font-weight: 600;
-	flex-basis: 35%;
+	margin-right: 20%;
+	padding-right: 10px;
 	&:hover{
 		text-decoration: none;
 		color: $linkinatorColorYellow;
@@ -44,15 +46,13 @@ a.consult-chat{
 	}
 }
 
-.one-click-order{
+a.one-click-order{
 	cursor: pointer;
 	color: $linkinatorColorBlue;
 	text-decoration-style: dashed;
 	font-size: $fontSizeTitle;
 	font-weight: 600;
-	margin-right: 100px;
-	flex-basis: 18%;
-	
+	margin-right: 10%;
 	&:hover{
 		color: $linkinatorColorYellow;
 	}
