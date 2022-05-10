@@ -81,6 +81,10 @@ body {
   text-align: left;
 }
 
+[class*="__container"] {
+  color: #ffca08;
+}
+
 .wrapper {
   min-height: 100%;
   width: 100%;
@@ -102,7 +106,7 @@ body {
 
 .title {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 60%;
   font-weight: 700;
   letter-spacing: 0.1;
 }
