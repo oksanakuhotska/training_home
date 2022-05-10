@@ -10,7 +10,7 @@ $linkinatorColorYellow: #ffca08;
 body {
 	padding: 0px 15px;
    margin: 0 auto;
-	max-width: $maxWidthContainer + px;
+	max-width: $maxWidthContainer + 30px;
 	font-family: $fontFamily;
 	font-size: $fontSize;
 	color: $mainColor;
@@ -19,7 +19,7 @@ body {
 	line-height: 1;
 	text-align: left;
 }
-// ========== блоки повторного киористання ======
+// ========== блоки повторного використання ======
 .title{
 	font-size: $fontSizeTitle;
 	line-height: 25px;

@@ -68,6 +68,75 @@ h6 {
   font-size: inherit;
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
 .main-header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,8 +163,8 @@ a.consult-chat {
   color: #267bae;
   text-decoration: underline;
   font-weight: 600;
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
 }
 
 a.consult-chat:hover {
@@ -107,8 +176,8 @@ a.consult-chat:hover {
   font-size: 20px;
   font-weight: 600;
   margin-right: 40px;
-  -ms-flex-preferred-size: 10%;
-      flex-basis: 10%;
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
 }
 
 .consult-cell-phone > i {
@@ -128,8 +197,8 @@ a.consult-chat:hover {
   font-size: 20px;
   font-weight: 600;
   margin-right: 100px;
-  -ms-flex-preferred-size: 15%;
-      flex-basis: 15%;
+  -ms-flex-preferred-size: 18%;
+      flex-basis: 18%;
 }
 
 .one-click-order:hover {
@@ -138,6 +207,7 @@ a.consult-chat:hover {
 
 .search {
   cursor: pointer;
+  padding: 0px 5px;
 }
 
 ._icon-search {
@@ -196,7 +266,7 @@ a.main-nav__link {
 body {
   padding: 0px 15px;
   margin: 0 auto;
-  max-width: 1263px;
+  max-width: 1293px;
   font-family: "Open Sans";
   font-size: 15px;
   color: #000000;
