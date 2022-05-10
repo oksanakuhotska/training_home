@@ -16,6 +16,9 @@ $fontSizeTitle: 20px;
 	margin-right: 40px;
 	cursor: pointer;
 }
+.consult-chat{
+	margin-right: 15%;
+}
 ._icon-chat{
 	font-size: $fontSizeTitle;
 	color: $linkinatorColorYellow;
@@ -25,7 +28,6 @@ a.link-consult-chat{
 	color: $linkinatorColorBlue;
 	text-decoration: underline;
 	font-weight: 600;
-	margin-right: 20%;
 	padding-right: 10px;
 	&:hover{
 		text-decoration: none;

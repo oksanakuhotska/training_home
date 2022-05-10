@@ -126,6 +126,10 @@ body {
   cursor: pointer;
 }
 
+.consult-chat {
+  margin-right: 15%;
+}
+
 ._icon-chat {
   font-size: 20px;
   color: #ffca08;
@@ -136,7 +140,6 @@ a.link-consult-chat {
   color: #267bae;
   text-decoration: underline;
   font-weight: 600;
-  margin-right: 20%;
   padding-right: 10px;
 }
 
