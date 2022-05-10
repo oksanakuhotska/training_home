@@ -1,0 +1,104 @@
+$linkinatorColorBlue: #267bae;
+$linkinatorColorYellow: #ffca08;
+$fontSizeTitle: 20px;
+
+
+.main-header{
+	&__wrapper{
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+}
+.brand-logo{
+	margin-right: 40px;
+	cursor: pointer;
+}
+._icon-chat{
+	font-size: $fontSizeTitle;
+	color: $linkinatorColorYellow;
+	padding-right: 7px;
+}
+a.consult-chat{
+	color: $linkinatorColorBlue;
+	text-decoration: underline;
+	font-weight: 600;
+	flex-basis:30%;
+	&:hover{
+		text-decoration: none;
+		color: $linkinatorColorYellow;
+	}
+}
+.consult-cell-phone{
+	font-size: $fontSizeTitle;
+	font-weight: 600;
+	margin-right: 40px;
+	flex-basis:10%;
+	> i{
+		padding-right: 5px;
+		color: $linkinatorColorYellow;
+	}
+	&:hover{
+		color: $linkinatorColorYellow;
+	}
+}
+
+.one-click-order{
+	cursor: pointer;
+	color: $linkinatorColorBlue;
+	text-decoration-style: dashed;
+	font-size: $fontSizeTitle;
+	font-weight: 600;
+	margin-right: 100px;
+	flex-basis:15%;
+	
+	&:hover{
+		color: $linkinatorColorYellow;
+	}
+}
+.search{
+	cursor: pointer;
+}
+._icon-search{
+	font-size: $fontSizeTitle;
+	font-weight: 700;
+	color: #8b8d8e;
+}
+//================
+.main-nav{
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	margin-bottom: 20px;
+	cursor: pointer;
+	&__btn{
+		font-size: $fontSizeTitle;
+		padding: 15px 20px;
+		min-height: 50px;
+		border: 1px solid #8b8d8e;
+		border-radius: 4%;
+		&:first-child{
+			margin-right: 10px;
+		}
+		&:hover{
+			background-color: $linkinatorColorYellow;
+			border-color: $linkinatorColorBlue;
+			color: $linkinatorColorBlue;
+		}
+	}
+	&__link{
+		padding-left: 25px;
+
+		&:last-child{
+			margin-left: 10px;
+		}
+		&:hover{
+			text-decoration: underline;
+			color: $linkinatorColorYellow;
+		}
+	}
+}
+a.main-nav__link{
+	text-decoration: underline;
+}
