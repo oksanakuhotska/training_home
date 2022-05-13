@@ -15,12 +15,29 @@ $fontSizeTitle: 20px;
 		margin-top: 10px;
 	}
 }
+.element_1{
+	margin-right: 5px;
+	flex: 1 40px;
+}
+.element_2{
+	margin-right: 5px;
+	flex: 2 100px;
+}
+.element_3{
+	margin-right: 5px;
+	flex: 1 40px;
+}
+.element_4{
+	margin-right: 5px;
+	flex: 1 100px;
+}
+.element_5{}
+
 .brand-logo{
-	margin-right: 40px;
 	cursor: pointer;
 }
 .consult-chat{
-	margin-right: 15%;
+	// margin-right: 15%;
 }
 ._icon-chat{
 	font-size: $fontSizeTitle;
@@ -40,9 +57,7 @@ a.link-consult-chat{
 .consult-cell-phone{
 	font-size: $fontSizeTitle;
 	font-weight: 600;
-	margin-right: 40px;
-	flex-basis: 15%;
-	> i{
+	> ._icon-phone{
 		padding-right: 5px;
 		color: $linkinatorColorYellow;
 	}
@@ -54,10 +69,10 @@ a.link-consult-chat{
 a.one-click-order{
 	cursor: pointer;
 	color: $linkinatorColorBlue;
+	text-decoration-line: underline;
 	text-decoration-style: dashed;
 	font-size: $fontSizeTitle;
 	font-weight: 600;
-	margin-right: 10%;
 	&:hover{
 		color: $linkinatorColorYellow;
 	}
