@@ -1,3 +1,123 @@
+$linkinatorColorBlue: #267bae;
+$linkinatorColorOrange: #ff9626;
+$linkinatorColorYellow: #ffca08;
+
 .main-footer{
 	background-color: #f8f8f8;
+}
+.footer-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+	margin-bottom: 50px;
+	.footer-nav{
+		ul{
+			display: flex;
+			li{
+				padding: 13px 19px;
+				font-size: 17px;
+				line-height: 20px;
+			}
+		}
+	}
+	.footer-links{
+		display: flex;
+		flex-direction: column;
+		.footer-link{
+			display: block;
+			text-decoration: underline;
+			line-height: 26px;
+			font-size: 17px;
+			margin-bottom: 12px;
+			&_margin{
+				margin-bottom: 20px;
+			}
+			&:hover{
+				color: $linkinatorColorBlue;
+			}
+		}
+		.footer-link-email{
+			font-size: 15px;
+			color: $linkinatorColorBlue;
+			&:hover{
+				color: $linkinatorColorYellow;
+			}
+		}
+		.footer-link-cellphone{
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+			text-decoration: none;
+			&:hover{
+				color: $linkinatorColorBlue;
+			}
+		}
+		._icon-phone{
+			padding-right: 5px;
+			color: $linkinatorColorYellow;
+		}
+	}
+	.footer-social-media{
+		.footer-text{
+			color: #303030;
+			line-height: 40px;
+		}
+		.form{
+			margin-bottom: 7px;
+		}
+		.form-field{
+			display: block;
+			margin-bottom: 10px;
+			max-width: 268px;
+		}
+		.form-input{
+			cursor: text;
+			width: 100%;
+			height: 36px;
+			box-shadow: 0 0 2px rgba(0, 95, 149, 0.64);
+			border: 1px solid #267bae;
+			font-size: 17px;
+			color: #787878;
+			padding: 8px;
+			line-height: 30px;
+		}
+		.form-button{
+			min-width: 269px;
+			height: 36px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 30px;
+			background-color: #4085b5;
+			cursor: pointer;
+			padding: 10px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&:hover{
+				background-color: $linkinatorColorYellow;
+			}
+		}
+		.footer-subtext{
+			font-size: 13px;
+			color: #808080;
+			font-weight: 300;
+			letter-spacing: -0.2px;
+			margin-bottom: 16px;
+		}
+		.social-media{
+			a{
+				display: inline-block;
+				&:not(:last-of-type){
+					margin-right: 17px;
+				}
+				&:hover{
+					color: $linkinatorColorBlue;
+				}
+			}
+			color: #bdbdbd;
+			font-size: 30px;
+		}
+	}
 }

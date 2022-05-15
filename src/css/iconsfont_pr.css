@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons';
-  src:  url('../fonts/icons.eot?a28id6');
-  src:  url('../fonts/icons.eot?a28id6#iefix') format('embedded-opentype'),
-    url('../fonts/icons.ttf?a28id6') format('truetype'),
-    url('../fonts/icons.woff?a28id6') format('woff'),
-    url('../fonts/icons.svg?a28id6#icons') format('svg');
+  src:  url('../fonts/icons.eot?yxjg4s');
+  src:  url('../fonts/icons.eot?yxjg4s#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?yxjg4s') format('truetype'),
+    url('../fonts/icons.woff?yxjg4s') format('woff'),
+    url('../fonts/icons.svg?yxjg4s#icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,9 +26,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._icon-twitter-b:before {
-  content: "\e918";
-}
 ._icon-arrow-down-2:before {
   content: "\e908";
 }
