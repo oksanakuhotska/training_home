@@ -812,6 +812,12 @@ b {
   padding: 10px 15px;
 }
 
+.tabs-block-link {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+}
+
 .tabs-block-link a {
   display: inline-block;
   font-size: 15px;

@@ -201,16 +201,19 @@ $linkinatorColorYellow: #ffca08;
 	display: flex;
 	padding: 10px 15px;
 }
-.tabs-block-link a{
-	display: inline-block;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 173%;
-	text-decoration: underline;
-	color: $linkinatorColorBlue;
-	padding: 10px 15px;
-	&:hover{
-		color: $linkinatorColorYellow;
-		transition: transform 0.3s ease 0s;
+.tabs-block-link {
+	flex: 0 1 33.333%;
+	a{
+		display: inline-block;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 173%;
+		text-decoration: underline;
+		color: $linkinatorColorBlue;
+		padding: 10px 15px;
+		&:hover{
+			color: $linkinatorColorYellow;
+			transition: transform 0.3s ease 0s;
+		}
 	}
 }
