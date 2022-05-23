@@ -16,6 +16,8 @@ $fontSizeTitle: 20px;
 	}
 }
 
+
+
 // flex: 0 0 494/1240 * 100%; - сторюємо ширину у відсотках
 
 .element_1{
@@ -38,11 +40,12 @@ $fontSizeTitle: 20px;
 .brand-logo{
 	cursor: pointer;
 }
-
-._icon-chat{
-	font-size: $fontSizeTitle;
-	color: $linkinatorColorYellow;
-	padding-right: 7px;
+.consult-chat{
+	._icon-chat{
+		font-size: $fontSizeTitle;
+		color: $linkinatorColorYellow;
+		padding-right: 7px;
+	}
 }
 a.link-consult-chat{
 	color: $linkinatorColorBlue;
