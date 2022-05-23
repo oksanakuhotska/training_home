@@ -52,6 +52,7 @@ a.link-consult-chat{
 	&:hover{
 		text-decoration: none;
 		color: $linkinatorColorYellow;
+		transition: transform 0.3s ease 0s;
 	}
 }
 .consult-cell-phone{
@@ -64,10 +65,12 @@ a.link-consult-chat{
 	._icon-arrow-down-2{
 		&:hover{
 			color: $linkinatorColorYellow;
+			transition: transform 0.3s ease 0s;
 		}
 	}
 	&:hover{
 		color: $linkinatorColorYellow;
+		transition: transform 0.3s ease 0s;
 	}
 }
 
@@ -80,6 +83,7 @@ a.one-click-order{
 	font-weight: 600;
 	&:hover{
 		color: $linkinatorColorYellow;
+		transition: transform 0.3s ease 0s;
 	}
 }
 
@@ -109,6 +113,7 @@ a.one-click-order{
 			margin-right: 10px;
 		}
 		&:hover{
+			transition: transform 0.3s ease 0s;
 			background-color: $linkinatorColorYellow;
 			border-color: $linkinatorColorBlue;
 			color: $linkinatorColorBlue;
@@ -123,6 +128,7 @@ a.one-click-order{
 		&:hover{
 			text-decoration: underline;
 			color: $linkinatorColorYellow;
+			transition: transform 0.3s ease 0s;
 		}
 	}
 }
