@@ -111,11 +111,13 @@ $ColorYellow: #ffca08;
 			margin-bottom: 16px;
 		}
 		.social-media{
-			a{
+
+			.social-media-link{
 				display: inline-block;
 				&:not(:last-of-type){
 					margin-right: 17px;
 				}
+
 				&:hover{
 					color: $ColorBlue;
 					transition: transform 0.3s ease 0s;
@@ -155,22 +157,21 @@ $ColorYellow: #ffca08;
 }
 .tabs-body{
 	margin-top: -1px;
-}
-.tab-block {
 	position: relative;
+}
+.tab-block:not(:target) {
 	display: none;
-
-	&:target{
+}
+.tab-block:target{
 		display: flex;
 		border: 1px solid #d8d8d8;
 		background-color: #ffffff;
 		border-radius: 0 4px 4px 4px;
 	}
-}
 
 .tab-block-menu-list {
 	flex: 0 1 33.333%;
-	a{
+	.tab-block-menu-link{
 		display: inline-block;
 		font-size: 15px;
 		font-weight: 500;

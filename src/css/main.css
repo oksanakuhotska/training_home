@@ -301,7 +301,7 @@ body {
 
 .online-chat {
   position: absolute;
-  top: 16%;
+  top: 15%;
   right: 0;
   z-index: 20;
   width: 81px;
@@ -469,7 +469,7 @@ b {
   padding: 17px 24px 0px 17px;
 }
 
-.linkinator-body > li:last-child a {
+.linkinator-body > li:last-of-type a {
   border-bottom: none;
 }
 
@@ -481,18 +481,18 @@ b {
   transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
 }
 
-.linkinator-body > li > a {
+.linkinator-body > li a {
   border-bottom: 1px solid #d7dcdf;
   display: block;
   padding-bottom: 10px;
   position: relative;
 }
 
-.linkinator-body > li > a > i {
+.linkinator-body > li a > i {
   padding-right: 12px;
 }
 
-.linkinator-body > li > a:hover {
+.linkinator-body > li a:hover {
   color: #ff9626;
   -webkit-transition: -webkit-transform 0.3s ease 0s;
   transition: -webkit-transform 0.3s ease 0s;
@@ -749,15 +749,15 @@ b {
   font-size: 30px;
 }
 
-.footer-wrapper .footer-social-media .social-media a {
+.footer-wrapper .footer-social-media .social-media .social-media-link {
   display: inline-block;
 }
 
-.footer-wrapper .footer-social-media .social-media a:not(:last-of-type) {
+.footer-wrapper .footer-social-media .social-media .social-media-link:not(:last-of-type) {
   margin-right: 17px;
 }
 
-.footer-wrapper .footer-social-media .social-media a:hover {
+.footer-wrapper .footer-social-media .social-media .social-media-link:hover {
   color: #267bae;
   -webkit-transition: -webkit-transform 0.3s ease 0s;
   transition: -webkit-transform 0.3s ease 0s;
@@ -805,10 +805,10 @@ b {
 
 .tabs-body {
   margin-top: -1px;
+  position: relative;
 }
 
-.tab-block {
-  position: relative;
+.tab-block:not(:target) {
   display: none;
 }
 
@@ -827,7 +827,7 @@ b {
           flex: 0 1 33.333%;
 }
 
-.tab-block-menu-list a {
+.tab-block-menu-list .tab-block-menu-link {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
@@ -837,7 +837,7 @@ b {
   padding: 10px 15px;
 }
 
-.tab-block-menu-list a:hover {
+.tab-block-menu-list .tab-block-menu-link:hover {
   color: #ffca08;
   -webkit-transition: -webkit-transform 0.3s ease 0s;
   transition: -webkit-transform 0.3s ease 0s;
