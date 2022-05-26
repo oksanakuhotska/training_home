@@ -1,6 +1,5 @@
-$linkinatorColorBlue: #267bae;
-$linkinatorColorOrange: #ff9626;
-$linkinatorColorYellow: #ffca08;
+$ColorBlue: #267bae;
+$ColorYellow: #ffca08;
 
 .main-footer{
 	background-color: #f8f8f8;
@@ -23,16 +22,18 @@ $linkinatorColorYellow: #ffca08;
 			&_margin{
 				margin-bottom: 20px;
 			}
+			
 			&:hover{
-				color: $linkinatorColorBlue;
+				color: $ColorBlue;
 				transition: transform 0.3s ease 0s;
 			}
 		}
 		.footer-link-email{
 			font-size: 15px;
-			color: $linkinatorColorBlue;
+			color: $ColorBlue;
+
 			&:hover{
-				color: $linkinatorColorYellow;
+				color: $ColorYellow;
 				transition: transform 0.3s ease 0s;
 			}
 		}
@@ -41,14 +42,15 @@ $linkinatorColorYellow: #ffca08;
 			align-items: center;
 			font-size: 18px;
 			text-decoration: none;
+
 			&:hover{
-				color: $linkinatorColorBlue;
+				color: $ColorBlue;
 				transition: transform 0.3s ease 0s;
 			}
 		}
 		._icon-phone{
 			padding-right: 5px;
-			color: $linkinatorColorYellow;
+			color: $ColorYellow;
 		}
 	}
 	.footer-social-media{
@@ -74,6 +76,7 @@ $linkinatorColorYellow: #ffca08;
 			color: #787878;
 			padding: 8px;
 			line-height: 30px;
+
 			&:hover{
 				box-shadow: 0 0 2px rgba(250, 230, 6, 0.64);
 				border: 1px solid #cbcb20;
@@ -94,8 +97,9 @@ $linkinatorColorYellow: #ffca08;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			
 			&:hover{
-				background-color: $linkinatorColorYellow;
+				background-color: $ColorYellow;
 				transition: transform 0.3s ease 0s;
 			}
 		}
@@ -113,7 +117,7 @@ $linkinatorColorYellow: #ffca08;
 					margin-right: 17px;
 				}
 				&:hover{
-					color: $linkinatorColorBlue;
+					color: $ColorBlue;
 					transition: transform 0.3s ease 0s;
 				}
 			}
@@ -152,7 +156,7 @@ $linkinatorColorYellow: #ffca08;
 .tabs-body{
 	margin-top: -1px;
 }
-.tabs-block {
+.tab-block {
 	position: relative;
 	display: none;
 
@@ -164,7 +168,7 @@ $linkinatorColorYellow: #ffca08;
 	}
 }
 
-.tabs-block-link {
+.tab-block-menu-list {
 	flex: 0 1 33.333%;
 	a{
 		display: inline-block;
@@ -172,11 +176,11 @@ $linkinatorColorYellow: #ffca08;
 		font-weight: 500;
 		line-height: 173%;
 		text-decoration: underline;
-		color: $linkinatorColorBlue;
+		color: $ColorBlue;
 		padding: 10px 15px;
 
 		&:hover{
-			color: $linkinatorColorYellow;
+			color: $ColorYellow;
 			transition: transform 0.3s ease 0s;
 		}
 	}

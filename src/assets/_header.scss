@@ -1,5 +1,5 @@
-$linkinatorColorBlue: #267bae;
-$linkinatorColorYellow: #ffca08;
+$ColorBlue: #267bae;
+$ColorYellow: #ffca08;
 $fontSizeTitle: 20px;
 
 
@@ -43,18 +43,18 @@ $fontSizeTitle: 20px;
 .consult-chat{
 	._icon-chat{
 		font-size: $fontSizeTitle;
-		color: $linkinatorColorYellow;
+		color: $ColorYellow;
 		padding-right: 7px;
 	}
 }
 a.link-consult-chat{
-	color: $linkinatorColorBlue;
+	color: $ColorBlue;
 	text-decoration: underline;
 	font-weight: 600;
 	padding-right: 10px;
 	&:hover{
 		text-decoration: none;
-		color: $linkinatorColorYellow;
+		color: $ColorYellow;
 		transition: transform 0.3s ease 0s;
 	}
 }
@@ -63,29 +63,29 @@ a.link-consult-chat{
 	font-weight: 600;
 	> ._icon-phone{
 		padding-right: 5px;
-		color: $linkinatorColorYellow;
+		color: $ColorYellow;
 	}
 	._icon-arrow-down-2{
 		&:hover{
-			color: $linkinatorColorYellow;
+			color: $ColorYellow;
 			transition: transform 0.3s ease 0s;
 		}
 	}
 	&:hover{
-		color: $linkinatorColorYellow;
+		color: $ColorYellow;
 		transition: transform 0.3s ease 0s;
 	}
 }
 
 a.one-click-order{
 	cursor: pointer;
-	color: $linkinatorColorBlue;
+	color: $ColorBlue;
 	text-decoration-line: underline;
 	text-decoration-style: dashed;
 	font-size: $fontSizeTitle;
 	font-weight: 600;
 	&:hover{
-		color: $linkinatorColorYellow;
+		color: $ColorYellow;
 		transition: transform 0.3s ease 0s;
 	}
 }
@@ -117,9 +117,9 @@ a.one-click-order{
 		}
 		&:hover{
 			transition: transform 0.3s ease 0s;
-			background-color: $linkinatorColorYellow;
-			border-color: $linkinatorColorBlue;
-			color: $linkinatorColorBlue;
+			background-color: $ColorYellow;
+			border-color: $ColorBlue;
+			color: $ColorBlue;
 		}
 	}
 	&__link{
@@ -130,7 +130,7 @@ a.one-click-order{
 		}
 		&:hover{
 			text-decoration: underline;
-			color: $linkinatorColorYellow;
+			color: $ColorYellow;
 			transition: transform 0.3s ease 0s;
 		}
 	}
