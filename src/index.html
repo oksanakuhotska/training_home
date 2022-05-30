@@ -3,285 +3,385 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css\iconsfont.css">
-	<link rel="stylesheet" href="css\main.css">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<link rel="stylesheet" href="./assets/css/iconsfont.css">
 	<title>Training insurance</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header class= "main-header">
-			<div class="_conteiner">
-				<div class="main-header__wrapper">
-					<a class="brand-logo element_1">
-						<img src="/src/img/logo.png" alt="Logo FinStore">
+	<div class="o-conteiner">
+		<header class= "c-main-header">	
+			<div class="c-main-header__inner">
+					<a class="c-brand-logo u-cursor-pointer">
+						<img src="assets/img/logo.png" alt="Logo FinStore">
 					</a>
-					<div class="consult-chat element_2">
-						<i class="_icon-chat"></i>
-						<a href="#" class="link-consult-chat">My financial consultant</a>
+					<div class="c-header-chat">
+						<i class="_icon-chat c-header-chat__icon"></i>
+						<a href="#" class="c-header-chat__link">My financial consultant</a>
 					</div>
-					<div class="dropdown element_3">
-						<a href="tel:067-344-44-44" class="consult-cell-phone"><i class="_icon-phone"></i>067-344-44-44 <i class="_icon-arrow-down-2"></i></a>
+					<div class="c-dropdown">
+						<a href="tel:067-344-44-44" class="c-dropdown-phone"><i class="_icon-phone"></i>067-344-44-44 <i class="_icon-arrow-down-2"></i></a>
 					</div>
-					<a href="#" class="one-click-order element_4">One click order</a>
-					<div class="search element_5">
+					<a href="#" class="c-header-click-order u-cursor-pointer">One click order</a>
+					<div class="c-header-search u-cursor-pointer element_5">
 						<i class="_icon-search"></i>
 					</div>
-				</div>
-				<nav class="main-nav">
-					<a href="#" class="main-nav__btn">Insurance</a>
-					<a href="#" class="main-nav__btn">Finances</a>
-					<a href="#" class="main-nav__link">Feedbacks</a>
-					<a href="#" class="main-nav__link">News</a>
-				</nav>
 			</div>
+			<nav class="c-main-nav u-cursor-pointer">
+					<a href="#" class="c-main-nav__btn">Insurance</a>
+					<a href="#" class="c-main-nav__btn">Finances</a>
+					<a href="#" class="c-main-nav__link">Feedbacks</a>
+					<a href="#" class="c-main-nav__link">News</a>
+			</nav>
 		</header>
-		<main class="main-content _conteiner">
-			<div class="hero-block">
-				<ul class="hero-block-nav">
-					<li><a href="#"><i class="_icon-car2"></i>OSAGO</a></li>
-					<li><a href="#"><i class="_icon-baggage1"></i>Tourism insurance</a></li>
-					<li><a href="#"><i class="_icon-icon-portmone"></i>Credits</a></li>
-					<li><a href="#"><i class="_icon-bank-box"></i>Bank cells</a></li>
-					<li><a href="#"><i class="_icon-file"></i>Green card</a></li>
+		<main class="c-main-content">
+			<div class="c-hero-block">
+				<ul class="c-hero-block-nav">
+					<li class="c-hero-block-nav__list">
+						<i class="c-hero-block-nav__icon _icon-car2"></i>
+						<a href="#">OSAGO</a>
+					</li>
+					<li class="c-hero-block-nav__list">
+						<i class="c-hero-block-nav__icon _icon-baggage1"></i>
+						<a href="#">Tourism insurance</a>
+					</li>
+					<li class="c-hero-block-nav__list">
+						<i class="c-hero-block-nav__icon _icon-icon-portmone"></i>
+						<a href="#">Credits</a>
+					</li>
+					<li class="c-hero-block-nav__list">
+						<i class="c-hero-block-nav__icon _icon-bank-box"></i>
+						<a href="#">Bank cells</a>
+					</li>
+					<li class="c-hero-block-nav__list">
+						<i class="c-hero-block-nav__icon _icon-file"></i>
+						<a href="#">Green card</a>
+					</li>
 				</ul>
-				<p class="hero-block-text">
+				<!-- <p class="hero-block-text">
 					<span class="text-background text-weight">Compare</span>
 					<span class="text-background"><span> and <span class="text-weight">buy</span> the best solution</span>
-				</p>
-				<a href="#" class="online-chat">
+				</p> -->
+				<div class="c-hero-block__title">
+					<p class="c-hero-block__title-text">
+						<b>Compare </b> <br> and <b>buy</b> the best solution
+					</p>
+				</div>
+				
+				<!-- <a href="#" class="online-chat">
 					<i class="online-chat-picture _icon-chat">
 					</i>
 					<p class="online-chat-text">Online chat</p>
-				</a>
+				</a> -->
 			</div>
-			<div class="services-section">
-				<div class="linkinator">
-					<header class="linkinator-header title">Insurance</header>
-					<ul class="linkinator-body">
-						<li>
-							<a href="#"><i class="_icon-services"></i>Services
-								<i class="_icon-angle-right"></i>
+			<div class="c-linkinator-section">
+				<div class="c-linkinator">
+					<header class="linkinator-header">Insurance</header>
+					<ul class="с-linkinator-body">
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-services u-padding-right"></i>Services
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-feedback"></i>Feedbacks
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-feedback u-padding-right"></i>Feedbacks
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-rating"></i>Ratings
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-rating u-padding-right"></i>Ratings
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-company"></i>Insurance companies
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-company u-padding-right"></i>Insurance companies
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-star"></i>Special offers
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-star u-padding-right"></i>Special offers
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-lower"></i>Insurance lawyer
-								<i class="_icon-angle-right"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="linkinator">
-					<header class="linkinator-header title">Finances</header>
-					<ul class="linkinator-body">
-						<li>
-							<a href="#"><i class="_icon-services"></i>Services
-								<i class="_icon-angle-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#"><i class="_icon-feedback"></i>Feedbacks
-								<i class="_icon-angle-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#"><i class="_icon-rating"></i>Ratings
-								<i class="_icon-angle-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#"><i class="_icon-banklandmark"></i>Banks
-								<i class="_icon-angle-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#"><i class="_icon-star"></i>Special offers
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-lower u-padding-right"></i>Insurance lawyer
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
-				<div class="linkinator">
-					<header class="linkinator-header title">New Services</header>
-					<ul class="linkinator-body">
-						<li>
-							<a href="#"><i class="_icon-house"></i>OSAGO
-								<i class="_icon-angle-right"></i>
+				<div class="c-linkinator">
+					<header class="linkinator-header">Finances</header>
+					<ul class="с-linkinator-body">
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-services u-padding-right"></i>Services
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-baggage1"></i>Travel insurance
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-feedback u-padding-right"></i>Feedbacks
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-icon-portmone"></i>Loans
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-rating u-padding-right"></i>Ratings
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
-						<li>
-							<a href="#"><i class="_icon-bank-box"></i>Bank cells
-								<i class="_icon-angle-right"></i>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-banklandmark u-padding-right"></i>Banks
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
+							</a>
+						</li>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-star u-padding-right"></i>Special offers
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
-			</div>
-			<div class="benefits-section">
-				<div class="benefits-body">
-					<div class="title">Benefits</div>
-					<ul>
-						<li><i class="_icon-star-full"></i><span class="text-weight">Compare and choose</span> the best solution in one place.</li>
-						<li><i class="_icon-star-full"></i><span class="text-weight">Reliable</span> and proven <span class="text-weight">companies.</span></li>
-						<li><i class="_icon-star-full"></i><span class="text-weight">Making a policy</span> or loan no more than <span class="text-weight">7 minutes.</span></liclass=>
-						<li><i class="_icon-star-full"></i><span class="text-weight"></span>100% privacy guarantee.</li>
+				<div class="c-linkinator">
+					<header class="linkinator-header">New Services</header>
+					<ul class="с-linkinator-body">
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-house u-padding-right"></i>OSAGO
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
+							</a>
+						</li>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-baggage1 u-padding-right"></i>Travel insurance
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
+							</a>
+						</li>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-icon-portmone u-padding-right"></i>Loans
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
+							</a>
+						</li>
+						<li class="с-linkinator-body__list">
+							<a href="#" class="с-linkinator-body__link"><i class="_icon-bank-box u-padding-right"></i>Bank cells
+								<i class="_icon-angle-right c-icon-arrow_position"></i>
+							</a>
+						</li>
 					</ul>
-				</div>
-				<div class="benefits-text">
-					<span>You <b> save your money</b> with us</span>
 				</div>
 			</div>
-
-			<div class="about-project">
-				<div class="title">About project</div>
-				<p>Add important text about the project. Contains information about the company, registration data, information about shareholders, profitability and profitability, contact information.</p>
-				<p>Statement of financial position, statement of financial results, dynamics of changes in key indicators.</p>
-				<p>Complete company report from the Finstore database. Includes information about the company, registration data, information about shareholders, profitability and profitability, contact details, balance sheet, income statement, dynamics of changes in key indicators.</p>
+			<div class="c-benefits-section">
+				<div class="c-benefits-body">
+					<div class="c-benefits-body__title">Benefits</div>
+					<ul class="c-benefits-body__list">
+						<li class="c-benefits-body__list"><i class="_icon-star-full"></i><b>Compare and choose</b> the best solution in one place.</li>
+						<li class="c-benefits-body__list"><i class="_icon-star-full"></i><b>Reliable</b> and proven <b>companies.</b></li>
+						<li class="c-benefits-body__list"><i class="_icon-star-full"></i><b>Making a policy</b> or loan no more than <b>7 minutes.</b></liclass=>
+						<li class="c-benefits-body__list"><i class="_icon-star-full"></i><b></b>100% privacy guarantee.</li>
+					</ul>
+				</div>
+				<div class="c-benefits__title">
+					<span class="c-benefits__title-text">You <b> save your money</b> with us</span>
+				</div>
+			</div>
+			<div class="c-project-info">
+				<div class="c-project-info__title">About project</div>
+				<p class="c-project-info__text">Add important text about the project. Contains information about the company, registration data, information about shareholders, profitability and profitability, contact information.</p>
+				<p class="c-project-info__text">Statement of financial position, statement of financial results, dynamics of changes in key indicators.</p>
+				<p class="c-project-info__text">Complete company report from the Finstore database. Includes information about the company, registration data, information about shareholders, profitability and profitability, contact details, balance sheet, income statement, dynamics of changes in key indicators.</p>
 			</div>
 		</main>
-		<footer class="main-footer">
-			<div class="footer-wrapper _conteiner">
-				<div class="footer-nav">
-					<div class="tabs">
-						<div class="tabs-items">
-							<a href="#tab-01" class="tabs-item is-active">Insurance</a>
-							<a href="#tab-02" class="tabs-item">Finance</a>
-							<a href="#tab-03" class="tabs-item">Tenders</a>
-							<a href="#tab-04" class="tabs-item">Partners</a>
-						</div>
-						<div class="tabs-body">
-							<div id="tab-01" class="tab-block">
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Auto</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Tourism</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Properties</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Accident</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance rating</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance lawyer</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Specialists</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">FAQ</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">CASCO</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">OSAGO</a></li>
-									</ul>
-							</div>
-							<div id="tab-02" class="tab-block">
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Fin Auto</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">FinTourism</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Properties</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Accident</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance rating</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance lawyer</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Specialists</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">FAQ</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">CASCO</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">OSAGO</a></li>
-									</ul>
-							</div>
-							<div id="tab-03" class="tab-block">
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Tenders</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Tenders</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Properties</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Accident</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance rating</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance lawyer</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Specialists</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">FAQ</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">CASCO</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">OSAGO</a></li>
-									</ul>
-							</div>
-							<div id="tab-04" class="tab-block">
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Partners</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Partners</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Properties</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Accident</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance rating</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Insurance lawyer</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">Specialists</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">FAQ</a></li>
-									</ul>
-									<ul class="tab-block-menu">
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">CASCO</a></li>
-										<li class="tab-block-menu-list"><a href="#" class="tab-block-menu-link">OSAGO</a></li>
-									</ul>
-							</div>
-							
-						</div>
+	</div>
+	<footer class="c-main-footer">
+		<div class="footer-inner o-conteiner">
+			<div class="c-footer-nav">
+				<div class="c-nav-tabs">
+					<input class="input" type="radio" id="tab_1" name="nav-tabs" checked="checked">
+					<label class="label" for="tab_1">Insurance</label>
+					<div class="tab">
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Auto</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tourism</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Properties</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Accident</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Insurance rating</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Insurance lawyer</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Specialists</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">FAQ</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">CASCO</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">OSAGO</a>
+							</li>
+						</ul>
 					</div>
-				</div>
-				<div class="footer-links">
-					<a href="#" class="footer-link">About project</a>
-					<a href="#" class="footer-link">Contacts</a>
-					<a href="#" class="footer-link footer-link_margin">Shipping and payment</a>
-					<a href="mailto:info@fintstore.ua" class="footer-link footer-link-email">info@fintstore.ua</a>
-					<div class="footer-link-cellphone">
-						<i class="_icon-phone"></i>
-						<a href="tel:0673444444">067 344-44-44</a>
+			
+					<input class="input" type="radio" id="tab_2" name="nav-tabs">
+					<label class="label" for="tab_2">Finance</label>
+					<div class="tab">
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Properties</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Accident</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance rating</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance lawyer</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Specialists</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">FAQ</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Finance</a>
+							</li>
+						</ul>
 					</div>
-				</div>
-				<div class="footer-social-media">
-					<p class="footer-text">Recommendations of financial market experts</p>
-					<form class="form" action="#" method="post">
-						<div class="form-field">
-							<input class="form-input" type="email" name="Email" placeholder="Email" required>
-						</div>
-						<button type="submit" class="form-button">Receive weekly</button>
-					</form>
-					<p class="footer-subtext">You can unsubscribe at any time. No spam.</p>
-					<div class="social-media">
-						<a href="#" class="social-media-link"><i class="_icon-facebook"></i></a>
-						<a href="#" class="social-media-link"><i class="_icon-twitter-b"></i></a>
-						<a href="#" class="social-media-link"><i class="_icon-email"></i></a>
+			
+					<input class="input" type="radio" id="tab_3" name="nav-tabs">
+					<label class="label" for="tab_3">Tenders</label>
+					<div class="tab">
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Properties</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Accident</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders rating</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders lawyer</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Specialists</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">FAQ</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Tenders</a>
+							</li>
+						</ul>
+					</div>
+			
+					<input class="input" type="radio" id="tab_4" name="nav-tabs">
+					<label class="label" for="tab_4">Partners</label>
+					<div class="tab">
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Properties</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Accident</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners rating</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners lawyer</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">FAQ</a>
+							</li>
+						</ul>
+						<ul class="tab-menu">
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners</a>
+							</li>
+							<li class="tab-menu__list">
+								<a href="#" class="tab-menu__link">Partners</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
+			<div class="c-contacts-footer">
+				<a href="#" class="c-contacts-footer__link">About project</a>
+				<a href="#" class="c-contacts-footer__link">Contacts</a>
+				<a href="#" class="c-contacts-footer__link u-margin-bottom">Shipping and payment</a>
+				<a href="mailto:info@fintstore.ua" class="contacts-footer__link c-link-email">info@fintstore.ua</a>
+				<div class="c-contacts-footer__link c-link-phone">
+					<i class="c-phone-icon _icon-phone"></i>
+					<a class="c-link-phone" href="tel:0673444444">067 344-44-44</a>
+				</div>
+			</div>
+			<div class="c-footer-signup">
+				<p class="c-signup__title">Recommendations of financial market experts</p>
+				<form class="form" action="#" method="post">
+					<div class="form-field">
+						<input class="form-input" type="email" name="Email" placeholder="Email" required>
+					</div>
+					<button type="submit" class="form-button">Receive weekly</button>
+				</form>
+				<p class="c-signup__text">You can unsubscribe at any time. No spam.</p>
+				<div class="c-social-media">
+					<a href="#" class="c-social-media__link"><i class="c-social-media__icon _icon-facebook"></i></a>
+					<a href="#" class="c-social-media__link"><i class="c-social-media__icon _icon-twitter-b"></i></a>
+					<a href="#" class="c-social-media__link"><i class="c-social-media__icon _icon-email"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

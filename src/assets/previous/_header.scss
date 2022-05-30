@@ -1,0 +1,136 @@
+$colorBlue: #267bae;
+$colorYellow: #ffca08;
+$fontSizeTitle: 20px;
+
+
+.main-header{
+	// min-height: 145px;
+	// padding-top: 5px;
+	// padding-bottom: 5px;
+	&__inner{
+		// display: flex;
+		// align-items: flex-end;
+		// justify-content: space-between;
+		// margin-bottom: 30px;
+		// margin-top: 10px;
+	}
+}
+
+
+
+// flex: 0 0 494/1240 * 100%; - ширину у відсотках
+
+.element_1{
+	margin-right: 5px;
+	flex: 1 40px;
+}
+.element_2{
+	margin-right: 5px;
+	flex: 2 100px;
+}
+.element_3{
+	margin-right: 5px;
+	flex: 1 40px;
+}
+.element_4{
+	margin-right: 5px;
+	flex: 1 100px;
+}
+
+.brand-logo{
+	cursor: pointer;
+}
+.consult-chat{
+	._icon-chat{
+		font-size: $fontSizeTitle;
+		color: $colorYellow;
+		padding-right: 7px;
+	}
+}
+a.link-consult-chat{
+	color: $colorBlue;
+	text-decoration: underline;
+	font-weight: 600;
+	padding-right: 10px;
+	
+}
+.consult-cell-phone{
+	font-size: $fontSizeTitle;
+	font-weight: 600;
+	> ._icon-phone{
+		padding-right: 5px;
+		color: $colorYellow;
+	}
+	._icon-arrow-down-2{
+		&:hover{
+			color: $colorYellow;
+			transition: transform 0.3s ease 0s;
+		}
+	}
+	&:hover{
+		color: $colorYellow;
+		transition: transform 0.3s ease 0s;
+	}
+}
+
+a.one-click-order{
+	cursor: pointer;
+	color: $colorBlue;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+	font-size: $fontSizeTitle;
+	font-weight: 600;
+	&:hover{
+		color: $colorYellow;
+		transition: transform 0.3s ease 0s;
+	}
+}
+
+.search{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+._icon-search{
+	font-size: $fontSizeTitle;
+	font-weight: 700;
+	color: #8b8d8e;
+}
+//================
+.main-nav{
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	margin-bottom: 20px;
+	cursor: pointer;
+	&__btn{
+		font-size: $fontSizeTitle;
+		padding: 15px 20px;
+		min-height: 50px;
+		border: 1px solid #8b8d8e;
+		border-radius: 4%;
+		&:first-child{
+			margin-right: 10px;
+		}
+		&:hover{
+			transition: transform 0.3s ease 0s;
+			background-color: $colorYellow;
+			border-color: $colorBlue;
+			color: $colorBlue;
+		}
+	}
+	&__link{
+		padding-left: 25px;
+
+		&:last-child{
+			margin-left: 10px;
+		}
+		&:hover{
+			text-decoration: underline;
+			color: $colorYellow;
+			transition: transform 0.3s ease 0s;
+		}
+	}
+}
+a.main-nav__link{
+	text-decoration: underline;
+}

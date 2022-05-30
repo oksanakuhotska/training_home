@@ -1,0 +1,112 @@
+//====================================
+
+
+.c-main-header{
+	font-size: $fontSizeTitle;
+}
+.c-main-header__inner{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.c-brand-logo{
+	flex: 0 1 18.25%;
+	margin-left: 5px;
+}
+.c-header-chat{
+	flex: 1 1 40.87%;
+	margin-left: 5px;
+	&__icon{
+		color: $colorYellow;
+	}
+	&__link{
+		color: $colorBlue;
+		font-size: $fontSizePrimary;
+		padding-right: 10px;
+		
+		&:hover{
+			text-decoration: none;
+			color: $colorYellow;
+			@include transition;
+		}
+	}
+}
+// ==== специфічніть а.клас =====
+a.c-header-chat__link{
+	text-decoration: underline;
+}
+//===============
+
+.c-dropdown{
+	flex: 0 1 18.17%;
+	margin-left: 5px;
+
+	&:hover{
+		color: $colorYellow;
+		@include transition;
+	}
+	
+	._icon-phone{
+		padding-right: 5px;
+		color: $colorYellow;
+	}
+}
+.c-header-click-order {
+	flex: 0 1  18.7%;
+
+	color: $colorBlue;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+
+	&:hover{
+		color: $colorYellow;
+		@include transition;
+	}
+}
+
+.c-header-search{
+	padding: 0px 5px;
+}
+
+//======= header second line ====
+
+.c-main-nav{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+
+	&__btn{
+		font-size: $fontSizeTitle;
+		padding: 15px 20px;
+		min-height: 50px;
+		border: 1px solid #8b8d8e;
+		border-radius: 4%;
+		
+		&:first-child{
+			margin-right: 10px;
+		}
+
+		&:hover{
+			background-color: $colorYellow;
+			border-color: $colorBlue;
+			color: $colorBlue;
+			@include transition;
+		}
+	}
+
+	&__link{
+		padding-left: 25px;
+		text-decoration: underline;
+
+		&:last-child{
+			margin-left: 10px;
+		}
+		&:hover{
+			text-decoration: underline;
+			color: $colorYellow;
+			@include transition;
+		}
+	}
+}

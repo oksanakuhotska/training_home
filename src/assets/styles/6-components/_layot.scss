@@ -1,0 +1,177 @@
+// ===== hero-block ======
+
+.c-hero-block{
+	background: url("../img/hero-block.jpg") no-repeat 0 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.c-hero-block-nav{
+	font-size: $fontSizeTitle;
+	color: #ffffff;
+	background-color: #000;
+	opacity: 0.75;
+	padding: 0px 10px;
+	margin: 20px;
+	width: 364px;
+	display: inline-block;
+	&__icon{
+		font-size: 35px;
+		padding-right: 26px;
+	}
+}
+.c-hero-block-nav__list{
+		padding: 20px 10px;
+		display: flex;
+		align-items: center;
+
+		&:not(:last-of-type){
+			border-bottom: 1px solid #585858;
+			}
+
+		&:hover{
+			color: $colorYellow;
+			@include transition;
+		}
+}
+
+.c-hero-block__title{
+	margin: 60px 10px 10px;
+	flex: 0 0 42%;
+}
+
+.c-hero-block__title-text{
+	font-size: 32px;
+	color: #000000;
+	font-weight: $fontWeightLite;
+	display: inline;
+	background-color: $colorYellow;
+	opacity: 0.9;
+	padding: 5px;
+	background-clip: padding-box;
+	line-height: 2;
+}
+
+
+//=========== linkinator-section =========
+
+.c-linkinator-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+.c-linkinator{
+	flex: 0 1 30%;
+	box-shadow: 0 0 4px rgba(7, 88, 145, 0.09);
+	border: 1px solid #d7dcdf;
+}
+.linkinator-header{
+	color: #000000;
+	@include  fontStyle (20px, normal, 115%);
+	text-decoration: underline;
+	background-color: #f9f9f9;
+	padding: 20px 22px;
+}
+.с-linkinator-body{
+	color: $colorBlue;
+}
+.с-linkinator-body__list{
+	margin: 5px;
+	padding: 17px 24px;
+	border-bottom: 1px solid #d7dcdf;
+
+		&:hover{
+			color: $colorOrange;
+			background-color: #fcfcfc;
+			@include transition;
+		}
+
+		&:last-of-type{
+			border: none;
+		}
+}
+
+.с-linkinator-body__link{
+   display: block;
+	position: relative;
+}
+
+.c-icon-arrow_position{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+//======== benefits-section ========
+
+.c-benefits-section{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.c-benefits-body{
+	color: #180e0c;
+	margin-top: 40px;
+	margin-bottom: 35px;
+	&__title{
+		font-size: $fontSizeTitle;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	&__list{
+		font-weight: $fontWeightLite;
+		&:not(:last-of-type){
+			margin-bottom: 20px;
+		}
+	}
+}
+._icon-star-full{
+	color: $colorYellow;
+	padding-right: 12px;
+}
+
+.c-benefits__title{
+	background-image: url('../img/text-block.jpg');
+	width: 726px;
+	height: 239px;
+	flex: 0 0 57.6%;
+	display: flex;
+	justify-content: center;
+}
+
+.c-benefits__title-text{
+	display: inline-block;
+	text-align: center;
+	align-self: center;
+	padding: 5px 20px;
+	font-size: 25px;
+	font-weight: $fontWeightLite;
+	background-color: $colorYellow;
+	opacity: 0.9;
+}
+
+//========= project-info ============
+
+.c-project-info{
+	max-width: 790px;
+	margin-bottom: 68px;
+	&__title{
+		margin-bottom: 14px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	&__text{
+		font-size: 17px;
+		font-weight: $fontWeightLite;
+		line-height: 25px;
+		&:not(:last-of-type){
+			margin-bottom: 14px;
+		}
+	}
+}

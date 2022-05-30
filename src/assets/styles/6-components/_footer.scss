@@ -1,0 +1,191 @@
+.c-main-footer{
+	background-color: $backgroundColorFooter;
+}
+.footer-inner{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+// 	@include margin(35px, 0px, 50px, 0px);
+}
+
+//====== nav-tabs =========
+
+.c-nav-tabs{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 519px;
+	padding: 25px 0px;
+}
+.input[type="radio"]{
+	display: none;
+}
+
+.label{
+	color: #000000;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 10px 20px;
+}
+
+.tab{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #fff;
+	order: 1;
+	display: none;
+}
+
+.tab-menu{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	&__list{
+		padding: 5px 20px;
+	}
+	&__link{
+		color: $colorBlue;
+		line-height: 26px;
+		text-decoration: dashed;
+
+		&:hover{
+			color: $colorYellow;
+			@include transition;
+		}
+	}
+}
+
+.input[type="radio"]:checked + .label + .tab{
+	display: block;
+}
+
+.input[type="radio"]:checked + .label{
+	display: block;
+	background-color: #fff;
+}
+//====== footer-links =======
+
+.c-contacts-footer{
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+}
+.c-contacts-footer__link{
+	display: block;
+	text-decoration: underline;
+	line-height: 26px;
+	font-size: 17px;
+	text-decoration: underline;
+	margin-bottom: 12px;
+
+	&:hover{
+		color: $colorBlue;
+		@include transition;
+	}
+}
+.c-link-email{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: $colorBlue;
+
+	&:hover{
+		color: $colorYellow;
+		@include transition;
+	}
+}
+.c-link-phone{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	text-decoration: none;
+	
+	&:hover{
+		color: $colorBlue;
+		@include transition;
+	}
+}
+
+.c-phone-icon{
+	padding-right: 7px;
+	color: $colorYellow;
+}
+
+//======= signup =========
+
+.c-signup__title{
+	margin-top: 20px;
+	color: #303030;
+	line-height: 40px;
+}
+
+.form{
+	margin-bottom: 7px;
+}
+.form-field{
+	display: block;
+	margin-bottom: 10px;
+	max-width: 268px;
+}
+.form-input{
+	cursor: text;
+	width: 100%;
+	height: 36px;
+	box-shadow: 0 0 2px rgba(0, 95, 149, 0.64);
+	border: 1px solid #267bae;
+	font-size: 17px;
+	color: #787878;
+	padding: 8px;
+	line-height: 30px;
+
+	&:hover{
+		box-shadow: 0 0 2px rgba(250, 230, 6, 0.64);
+		border: 1px solid #cbcb20;
+		@include transition;
+	}
+}
+.form-button{
+	min-width: 269px;
+	height: 36px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: $fontWeightPrimary;
+	line-height: 30px;
+	background-color: #4085b5;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	&:hover{
+		background-color: $colorYellow;
+		@include transition;
+	}
+}
+
+.c-signup__text{
+	font-size: 13px;
+	color: #808080;
+	font-weight: $fontWeightLite;
+	letter-spacing: -0.2px;
+	margin-bottom: 16px;
+}
+
+.c-social-media{
+	color: #bdbdbd;
+	font-size: 30px;
+}
+
+.c-social-media__link{
+	display: inline-block;
+
+	&:not(:last-of-type){
+		margin-right: 17px;
+	}
+
+	&:hover{
+		color: $colorBlue;
+		@include transition;
+	}
+}
