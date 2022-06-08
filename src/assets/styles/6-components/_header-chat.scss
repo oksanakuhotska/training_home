@@ -1,0 +1,19 @@
+.c-header-chat{
+	margin-left: 5px;
+}
+
+.c-header-chat__icon{
+		color: $infoColor;
+	}
+
+.c-header-chat__link{
+	color: $accentColor;
+	font-size: $fontSizePrimary;
+	padding-right: 10px;
+	
+	&:hover{
+		text-decoration: none;
+		color: $infoColor;
+		@include transition;
+	}
+}

@@ -1,0 +1,58 @@
+.c-linkinator {
+	box-shadow: 0 0 4px rgba(7, 88, 145, 0.09);
+	border: 1px solid $lightGreyColor;
+	border-radius: 4px;
+}
+
+.c-linkinator-link-arrow {
+	position: absolute;
+	top: 16px;
+	right: 0;
+}
+
+.с-linkinator-header {
+	color: $darkColor;
+	@include  fontStyle (20px, normal, 115%);
+	text-decoration: underline;
+	background-color: $lightColor;
+	padding: 20px 22px;
+}
+
+.с-linkinator-body {
+	color: $accentColor;
+}
+
+.с-linkinator-body__list {
+	padding: 0px 24px;
+
+	&:hover {
+		color: $orangeColor;
+		background-color: $lightColor;
+		@include transition;
+		border-bottom: 1px solid $darkBlueColor;
+		border-top: 1px solid $darkBlueColor;
+	}
+	
+	.с-linkinator-body__link + .с-linkinator-body__link {
+		border-bottom: 1px solid $lightGreyColor;
+	}
+
+	// &:not(:last-of-type) .с-linkinator-body__link{
+	// 	border-bottom: 1px solid $lightGreyColor;
+		
+	// 	&:hover{
+	// 		border: none;
+	// 	}
+	// }
+}
+
+.с-linkinator-body__link {
+	display: block;
+	position: relative;
+	padding: 15px 0px;
+	margin: 0px 15px;
+
+	:where(&:link, &:visited) {
+		text-decoration: none;
+	}
+}

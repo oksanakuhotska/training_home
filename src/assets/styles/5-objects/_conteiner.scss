@@ -3,3 +3,7 @@
    margin: 0 auto;
 	max-width: $maxWidthContainer + 30px;
 }
+
+.test {
+	width: #{pow(2, 3)}px;
+}

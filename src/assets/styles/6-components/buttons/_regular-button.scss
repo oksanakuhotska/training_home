@@ -1,0 +1,20 @@
+.c-regular-button{
+	min-width: 269px;
+	height: 36px;
+	color: $secondaryColor;
+	font-size: 18px;
+	font-weight: $fontWeightPrimary;
+	line-height: 30px;
+	background-color: $darkBlueColor;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	&:hover{
+		background-color: $infoColor;
+		@include transition;
+	}
+}

@@ -1,0 +1,8 @@
+.c-main-nav{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	.c-outline-button + .c-outline-button{
+		margin-left: 10px;
+	}
+}

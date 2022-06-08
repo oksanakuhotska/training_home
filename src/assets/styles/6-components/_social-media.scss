@@ -1,0 +1,21 @@
+.c-social-media {
+	color: #bdbdbd;
+	font-size: 30px;
+	display: flex;
+
+	.c-social-media__link + .c-social-media__link {
+		margin-left: 17px;
+	}
+}
+
+.c-social-media__link {
+	
+	:where(&:link, &:visited) {
+		text-decoration: none;
+	}
+
+	&:hover {
+		color: $accentColor;
+		@include transition;
+	}
+}

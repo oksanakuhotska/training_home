@@ -1,0 +1,112 @@
+//====== header =====
+
+.main-header {
+	font-size: $fontSizeTitle;
+}
+.main-header__inner {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+	.c-brand-logo {
+		flex: 0 1 18.25%;
+	}
+	.c-one-click-order {
+		flex: 0 1 18.7%;
+	}
+	.c-dropdown {
+		flex: 0 1 18.17%;
+	}
+	.c-header-chat{
+		flex: 1 1 40.87%;
+	}
+}
+
+//====== footer =====
+
+.main-footer {
+	background-color: $lightColor;
+}
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+//====== footer-links =======
+
+.contacts-footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+}
+.contacts-footer__link {
+	display: block;
+	text-decoration: underline;
+	line-height: 26px;
+	font-size: $fontSizeMedium;
+	text-decoration: underline;
+	margin-bottom: 12px;
+
+	&:hover {
+		color: $accentColor;
+		@include transition;
+	}
+}
+.link-email {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: $accentColor;
+
+	&:hover {
+		color: $infoColor;
+		@include transition;
+	}
+}
+.link-phone {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	text-decoration: none;
+	
+	&:hover {
+		color: $accentColor;
+		@include transition;
+	}
+}
+
+.phone-icon {
+	padding-right: 7px;
+	color: $infoColor;
+}
+
+//======= signup =========
+
+.signup__title {
+	margin-top: 20px;
+	color: $darkerGreyColor;
+	line-height: 40px;
+}
+
+.signup__text {
+	font-size: 13px;
+	color: $darkGreyColor;
+	font-weight: $fontWeightLite;
+	letter-spacing: -0.2px;
+	margin-bottom: 16px;
+}
+
+//======= form =========
+
+.signup__form {
+	margin-bottom: 7px;
+}
+.signup__form-field {
+	display: block;
+	margin-bottom: 10px;
+	max-width: 268px;
+}

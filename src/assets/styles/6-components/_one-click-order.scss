@@ -1,0 +1,12 @@
+.c-one-click-order {
+
+	color: $accentColor;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+	cursor: pointer;
+
+	&:hover{
+		color: $infoColor;
+		@include transition;
+	}
+}

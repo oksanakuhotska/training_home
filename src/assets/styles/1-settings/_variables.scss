@@ -2,12 +2,33 @@
 
 $maxWidthContainer: 1260;
 $fontFamily: "Open Sans";
+
 $fontSizePrimary: 15px;
+$fontSizeMedium: 17px;
 $fontSizeTitle: 20px;
-$colorPrimary: #000000;
-$colorBlue: #267bae;
-$colorOrange: #ff9626;
-$colorYellow: #ffca08;
-$backgroundColorFooter: #f8f8f8;
+
+$accentColor: #267bae;
+$secondaryColor: #ffffff;
+$infoColor: #ffca08;
+$lightColor: #f9f9f9;
+$darkColor: #000000;
+$orangeColor: #ff9626;
+$darkBlueColor: #4085b5;
+$mediumBlueColor: #006ea7;
+$darkerGreyColor: #303030;
+$darkGreyColor: #808080;
+$darkMediumGreyColor: #585858;
+$lightGreyColor: #d7dcdf;
+
+$theme-colors: (
+	"accent":    $accentColor,
+	"secondary":  $secondaryColor,
+	"info":       $infoColor,
+	"light":      $lightColor,
+	"dark":       $darkColor,
+	"orange":     $orangeColor,
+
+);
+
 $fontWeightPrimary: 400;
 $fontWeightLite: 300;

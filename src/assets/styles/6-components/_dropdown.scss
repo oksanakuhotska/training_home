@@ -1,0 +1,19 @@
+.c-dropdown{
+	margin-left: 5px;
+	
+	&:hover{
+		color: $infoColor;
+		@include transition;
+	}
+}
+
+.c-dropdown-phone{
+	:where(&:link, &:visited) {
+		text-decoration: none;
+	}
+}
+
+._icon-phone{
+	padding-right: 5px;
+	color: $infoColor;
+}

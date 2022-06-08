@@ -1,0 +1,58 @@
+.c-nav-tabs__header {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 519px;
+	padding: 25px 0px;
+}
+
+.c-nav-tabs-hedear__input[type="radio"] {
+	display: none;
+	
+}
+
+.c-nav-tabs-hedear__label {
+	color: $darkColor;
+	font-size: $fontSizeMedium;
+	font-weight: 600;
+	padding: 10px 20px;
+}
+
+.c-nav-tabs__body {
+	width: 100%;
+	padding: 10px 20px;
+	background-color: $secondaryColor;
+	order: 1;
+	display: none;
+}
+
+.c-pikachu-menu {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+}
+
+.c-pikachu-menu__list {
+		padding: 5px 20px;
+}
+.c-pikachu-menu__link {
+	color: $accentColor;
+	line-height: 26px;
+	
+	:where(&:link, &:visited) {
+		text-decoration: underline;
+	}
+
+	&:hover{
+		color: $infoColor;
+		@include transition;
+	}
+}
+
+.c-nav-tabs-hedear__input[type="radio"]:checked + .c-nav-tabs-hedear__label + .c-nav-tabs__body{
+	display: block;
+}
+
+.c-nav-tabs-hedear__input[type="radio"]:checked + .c-nav-tabs-hedear__label{
+	display: block;
+	background-color: $secondaryColor;
+}

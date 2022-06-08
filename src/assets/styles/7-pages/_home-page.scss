@@ -1,0 +1,45 @@
+.linkinator-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+	.c-linkinator {
+		flex: 0 1 30%;
+	}
+}
+
+// =============
+
+.benefits-section {
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.benefits__title {
+background-image: url('../img/text-block.jpg');
+width: 726px;
+height: 239px;
+flex: 0 0 57.6%;
+display: flex;
+justify-content: center;
+}
+
+.benefits__title-text {
+display: inline-block;
+text-align: center;
+align-self: center;
+padding: 5px 20px;
+font-size: 25px;
+font-weight: $fontWeightLite;
+background-color: $infoColor;
+opacity: 0.9;
+}
+
+// =================
+
+.project-info-section {
+max-width: 790px;
+margin-bottom: 68px;
+}

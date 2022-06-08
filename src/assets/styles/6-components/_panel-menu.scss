@@ -1,0 +1,36 @@
+.c-panel-menu{
+	font-size: $fontSizeTitle;
+	color: $secondaryColor;
+	background-color: $darkColor;
+	opacity: 0.75;
+	padding: 0px 10px;
+	margin: 20px;
+	width: 364px;
+	display: inline-block;
+}
+
+.c-panel-menu__list{
+	padding: 20px 10px;
+	display: flex;
+	align-items: center;
+
+	&:not(:last-of-type){
+		border-bottom: 1px solid $darkMediumGreyColor;
+		}
+
+	&:hover{
+		color: $infoColor;
+		@include transition;
+	}
+}
+
+.c-panel-menu__icon{
+	font-size: 35px;
+	padding-right: 26px;
+}
+
+.c-panel-menu__link{
+	:where(&:link, &:visited) {
+		text-decoration: none;
+	}
+}

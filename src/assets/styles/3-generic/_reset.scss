@@ -33,8 +33,7 @@ button {
 a {
 	color: inherit;
 }
-a:link,
-a:visited {
+:where(a:link, a:visited) {
 	text-decoration: none;
 }
 a:hover {
