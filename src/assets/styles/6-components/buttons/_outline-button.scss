@@ -1,16 +1,21 @@
-.c-outline-button {
-	font-size: $fontSizeTitle;
-	padding: 15px 20px;
-	min-height: 50px;
-	border: 1px solid #8b8d8e;
-	border-radius: 4%;
-	text-decoration: none;
+.c-outline-button{
+	width: 125px;
+	height: 43px;
+	border-radius: 30%;
+	background-color: $accent-color;
+	font-family: $secondary-font-family;
+	color: $light-color;
+	line-height: 128,85%;
 	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
-	&:hover {
-		background-color: $infoColor;
-		border-color: $accentColor;
-		color: $accentColor;
+	&:hover{
+		background-color: $secondary-color;
 		@include transition;
 	}
 }

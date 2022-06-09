@@ -29,21 +29,17 @@
 		color: $orangeColor;
 		background-color: $lightColor;
 		@include transition;
-		border-bottom: 1px solid $darkBlueColor;
-		border-top: 1px solid $darkBlueColor;
+		border-bottom: 1px solid $lightGreyColor;
+		border-top: 1px solid $lightGreyColor;
 	}
 	
-	.с-linkinator-body__link + .с-linkinator-body__link {
+	&:not(:last-of-type) .с-linkinator-body__link{
 		border-bottom: 1px solid $lightGreyColor;
 	}
 
-	// &:not(:last-of-type) .с-linkinator-body__link{
-	// 	border-bottom: 1px solid $lightGreyColor;
-		
-	// 	&:hover{
-	// 		border: none;
-	// 	}
-	// }
+	.с-linkinator-body__link:hover {
+		border-bottom: none;
+	}
 }
 
 .с-linkinator-body__link {
@@ -55,4 +51,8 @@
 	:where(&:link, &:visited) {
 		text-decoration: none;
 	}
+
+	
 }
+
+

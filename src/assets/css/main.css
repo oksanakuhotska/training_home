@@ -394,12 +394,16 @@ h3 {
   transition: -webkit-transform 0.3s ease 0s;
   transition: transform 0.3s ease 0s;
   transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
-  border-bottom: 1px solid #4085b5;
-  border-top: 1px solid #4085b5;
+  border-bottom: 1px solid #d7dcdf;
+  border-top: 1px solid #d7dcdf;
 }
 
-.с-linkinator-body__list .с-linkinator-body__link + .с-linkinator-body__link {
+.с-linkinator-body__list:not(:last-of-type) .с-linkinator-body__link {
   border-bottom: 1px solid #d7dcdf;
+}
+
+.с-linkinator-body__list .с-linkinator-body__link:hover {
+  border-bottom: none;
 }
 
 .с-linkinator-body__link {
